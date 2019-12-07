@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="canonical" href="https://mdbootstrap.com/docs/jquery/javascript/charts/" />
+<meta property="og:image:secure_url" content="https://mdbootstrap.com/api/snippets/static/screenshots/157680.png">
+<link rel="canonical" href="https://mdbootstrap.com/snippets/jquery/temp/157680">
+</head>
+
+<body>
+<canvas id="doughnutChart"></canvas>
+</body>
+<script>
+  //doughnut
+  var ctxD = document.getElementById("doughnutChart").getContext('2d');
+  var myLineChart = new Chart(ctxD, {
+    type: 'doughnut',
+    data: {
+      labels: ["Red", "Green", "Yellow", "Grey", "Dark Grey"],
+      datasets: [{
+        data: [300, 50, 100, 40, 120],
+        backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+        hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+      }]
+    },
+    options: {
+      responsive: true
+    }
+  });
+
+</script>
+</html>

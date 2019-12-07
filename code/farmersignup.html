@@ -1,0 +1,116 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-us" >
+<head>
+<title>Log in | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="base.css">
+<link rel="stylesheet" type="text/css" href="login.css">
+
+
+
+
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    
+
+<meta name="robots" content="NONE,NOARCHIVE">
+</head>
+
+
+<body class=" login"
+  data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Farmer Signup</a></h1>
+
+        </div>
+        
+        
+    </div>
+    <!-- END Header -->
+    
+    
+
+    
+        
+    
+
+    <!-- Content -->
+    <div id="content" class="colM">
+        
+        
+        
+
+
+
+
+<div id="content-main">
+
+
+
+<form action="farmersignup.py" method="post" id="login-form"><input type="hidden" name="csrfmiddlewaretoken" value="N3XJ80FkKF6aUL7mfTzg1dc6pmhTZ6gOZ1Vh0qEE0Z6MLUEwwSzo49UAStYbiHnl">
+
+
+<div class="form-row">
+    
+    <label class="required" for="id_username">Full Name:</label> <input type="text" name="fullname" autofocus required id="id_username">
+  </div>
+
+<div class="form-row">
+    
+    <label class="required" for="id_username">Address:</label> <input type="text" name="address" autofocus required id="id_username">
+  </div>
+
+
+
+
+<div class="form-row">
+    
+    <label class="required" for="id_username">user name:</label> <input type="text" name="username" autofocus required id="id_username">
+  </div>
+
+
+
+
+
+
+  <div class="form-row">
+    
+    <label class="required" for="id_password">Password:</label> <input type="password" name="password" required id="id_password">
+    <input type="hidden" name="password" >
+  </div>
+  
+<div class="form-row">
+    
+    <label class="required" for="id_password">re-enter Password:</label> <input type="password" name="repassword" required id="id_password">
+    <input type="hidden"  >
+  </div>
+  
+  <div class="submit-row">
+    <label>&nbsp;</label><input type="submit" value="Log in">
+  </div>
+</form>
+
+</div>
+
+        
+        <br class="clear">
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>

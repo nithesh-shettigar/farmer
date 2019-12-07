@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="icons" rel="stylesheet">
+      <!--Import materialize.css-->
+  <link rel="stylesheet" href="materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+     <meta name="MobileOptimized" content="320">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    
+	<style >
+	
+	.slider {
+  max-width: 1300px;
+  height: 300px;
+  margin: 20px auto;
+  position: relative;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+  background: url(logos/m1.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade 8s infinite;
+-webkit-animation:fade 8s infinite;
+
+} 
+.slide2 {
+  background: url(logos/m2.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;
+}
+.slide3 {
+    background: url(logos/m4.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+.slide4 {
+    background: url(logos/m3.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+	
+
+div.cities {
+        background-color:white;
+    color: black;
+   
+
+} 
+
+
+div.cities1 {
+    background-color:green;
+    color: white;
+   
+} 
+</style>
+	
+	
+	</head>
+
+    <body>
+	<div class='slider'>
+  <div class='slide1'></div>
+  <div class='slide2'></div>
+  <div class='slide3'></div>
+</div>
+   
+	
+
+          
+	       <form action=" login.html" method="POST" target="_blank"> <li><button  class="btn waves-effect waves-light"  onclick="form.action='login.html';" >rating
+  
+  </button></li></form>
+       
+
+
+
+    </div>
+    
+  </nav>
+
+		<nav><div class="nav-content ">
+		  <ul class="tabs tabs-transparent">
+			<li class="tab"><a class="active" href="#home">home
+			</a></li>
+			
+			<li class="tab "><a href="#vegetables">vegetables</a></li>
+			<li class="tab"><a href="#fruits">fruits</a></li>
+			<li class="tab"><a  href="#crops">crops</a></li>
+			
+		  </ul>
+		</div>
+	  </nav>
+  
+
+ 
+ 
+ <nav class="nav-extended #f44336 blue">
+    <div class="nav-wrapper">
+	<div id="vegetables">
+   <center><h2> vegetables</h2></center>	
+	
+    </div>
+</div>
+    </nav>
+
+<table> 
+
+
+<th>
+	
+    <div class="row">
+        <div class="col s12 m7">
+          <div class="card" name="card1">
+		  
+            <div class="card-image">
+              <img src="logos/tomato.jpg">
+              
+            </div>
+			<div class="cities1">
+			<span class="card-title">tomato</span></div>
+            <div class="card-content">
+			<div class="cities">
+      
+            <p>  price=100rs</p>
+			<p> type=vegetable</p>
+			  
+			  </h6>
+			  
+
+            </div>
+            <div class="card-action">
+              <div><a href="update.py?c=bb">update</a></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+</th>
+
+
+
+
+
+
+<th>
+	    <div class="row">
+        <div class="col s12 m7">
+          <div class="card" name="card1">
+		  
+            <div class="card-image">
+              <img src="logos/carrot1.jpg">
+              
+            </div>
+			<div class="cities1">
+			<span class="card-title">carrot</span></div>
+            <div class="card-content">
+			<div class="cities">
+      
+            <p>  price=100rs</p>
+			<p> type=vegetable</p>
+			  
+			  </h6>
+			  
+
+            </div>
+            <div class="card-action">
+              <div><a href="update.py?c=bb">update</a></div>
+
+            </div>
+          </div>
+        </div>
+      </div></th>
+
+
+
+
+
+<th>
+	    <div class="row">
+        <div class="col s5 m7">
+          <div class="card" name="card1">
+		  
+            <div class="card-image">
+              <img src="logos/cucumber.jpg">
+              
+            </div>
+			<div class="cities1">
+			<span class="card-title">cucumber</span></div>
+            <div class="card-content">
+			<div class="cities">
+      
+            <p>  price=100rs</p>
+			<p> type=vegetable</p>
+			  
+			  </h6>
+			  
+
+            </div>
+            <div class="card-action">
+              <div><a href="update.py?c=bb">update</a></div>
+
+            </div>
+          </div>
+        </div>
+      </div></th>
+
+
+
+<th>
+	    <div class="row">
+        <div class="col s5 m7">
+          <div class="card" name="card1">
+		  
+            <div class="card-image">
+              <img src="logos/cabbage.jpg">
+              
+            </div>
+			<div class="cities1">
+			<span class="card-title">cabbage</span></div>
+            <div class="card-content">
+			<div class="cities">
+      
+            <p>  price=100rs</p>
+			<p> type=vegetable</p>
+			  
+			  </h6>
+			  
+
+            </div>
+            <div class="card-action">
+              <div><a href="update.py?c=bb">update</a></div>
+
+            </div>
+          </div>
+        </div>
+      </div></th>
+</table>
+</div>
+
+
+
+
+
+
+
+<nav class="nav-extended #f44336 blue">
+    <div class="nav-wrapper">
+	<div id="fruits">
+   <center><h2> friuts</h2></center>	
+	</div>
+    </div>
+    </nav>
+<div id="fruits">
+<table> 
+
+
+<th>
+	
+    <div class="row">
+        <div class="col s12 m7">
+          <div class="card" name="card1">
+		  
+            <div class="card-image">
+              <img src="logos/apples.jpg">
+              
+            </div>
+			<div class="cities1">
+			<span class="card-title">apple</span></div>
+            <div class="card-content">
+			<div class="cities">
+      
+            <p>  price=100rs</p>
+			<p> type=friut</p>
+			  
+			  </h6>
+			  
+
+            </div>
+            <div class="card-action">
+              <div><a href="update.py?c=bb">update</a></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+</th>
+
+
+
+
+
+
+<th>
+	    <div class="row">
+        <div class="col s12 m7">
+          <div class="card" name="card1">
+		  
+            <div class="card-image">
+              <img src="logos/mangos.jpg">
+              
+            </div>
+			<div class="cities1">
+			<span class="card-title">mango</span></div>
+            <div class="card-content">
+			<div class="cities">
+      
+            <p>  price=100rs</p>
+			<p> type=friut</p>
+			  
+			  </h6>
+			  
+
+            </div>
+            <div class="card-action">
+              <div><a href="update.py?c=bb">update</a></div>
+
+            </div>
+          </div>
+        </div>
+      </div></th>
+
+
+
+
+
+<th>
+	    <div class="row">
+        <div class="col s5 m7">
+          <div class="card" name="card1">
+		  
+            <div class="card-image">
+              <img src="logos/bananas.jpg">
+              
+            </div>
+			<div class="cities1">
+			<span class="card-title">banana</span></div>
+            <div class="card-content">
+			<div class="cities">
+      
+            <p>  price=100rs</p>
+			<p> type=friut</p>
+			   
+			  </h6>
+			  
+
+            </div>
+            <div class="card-action">
+              <div><a href="update.py?c=bb">update</a></div>
+
+            </div>
+          </div>
+        </div>
+      </div></th>
+
+
+
+<th>
+	    <div class="row">
+        <div class="col s5 m7">
+          <div class="card" name="card1">
+		  
+            <div class="card-image">
+              <img src="logos/orange.jpg">
+              
+            </div>
+			<div class="cities1">
+			<span class="card-title">orange</span></div>
+            <div class="card-content">
+			<div class="cities">
+      
+            <p>  price=100rs</p>
+			<p>type=friut</p>
+			  
+			  </h6>
+			  
+
+            </div>
+            <div class="card-action">
+              <div><a href="update.py?c=bb">update</a></div>
+
+            </div>
+          </div>
+        </div>
+      </div></th>
+</table>
+</div>
+
+
+
+
+
+<nav class="nav-extended #f44336 blue">
+    <div class="nav-wrapper">
+	<div id="crops">
+   <center><h2> crops</h2></center>	
+	</div>
+    </div>
+    </nav>
+
+
+<div id="crops">
+<table> 
+
+
+<th>
+	
+    <div class="row">
+        <div class="col s12 m7">
+          <div class="card" name="card1">
+		  
+            <div class="card-image">
+              <img src="logos/barley.jpg">
+              
+            </div>
+			<div class="cities1">
+			<span class="card-title">barley</span></div>
+            <div class="card-content">
+			<div class="cities">
+      
+            <p>  price=100rs</p>
+			<p> type=crop</p>
+			  
+			  </h6>
+			  
+
+            </div>
+            <div class="card-action">
+              <div><a href="update.py?c=bb">update</a></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+</th>
+
+
+
+
+
+
+<th>
+	    <div class="row">
+        <div class="col s12 m7">
+          <div class="card" name="card1">
+		  
+            <div class="card-image">
+              <img src="logos/corn1.jpg">
+              
+            </div>
+			<div class="cities1">
+			<span class="card-title">corn</span></div>
+            <div class="card-content">
+			<div class="cities">
+      
+            <p>  price=100rs</p>
+			<p> type=crop</p>
+			  
+			  </h6>
+			  
+
+            </div>
+            <div class="card-action">
+              <div><a href="update.py?c=bb">update</a></div>
+
+            </div>
+          </div>
+        </div>
+      </div></th>
+
+
+
+
+
+<th>
+	    <div class="row">
+        <div class="col s5 m7">
+          <div class="card" name="card1">
+		  
+            <div class="card-image">
+              <img src="logos/wheat.jpg">
+              
+            </div>
+			<div class="cities1">
+			<span class="card-title">wheat</span></div>
+            <div class="card-content">
+			<div class="cities">
+      
+            <p>  price=100rs</p>
+			<p> type=crop</p>
+			   
+			  </h6>
+			  
+
+            </div>
+            <div class="card-action">
+              <div><a href="update.py?c=bb">update</a></div>
+
+            </div>
+          </div>
+        </div>
+      </div></th>
+
+
+
+
+</table>
+</div>
+
+</body>
+</html>
